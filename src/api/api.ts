@@ -2,6 +2,10 @@ import axios from 'axios';
 
 const defInstanceAPI = axios.create({
   baseURL: process.env.NEXT_PUBLIC_API || 'http://localhost:1337',
+  headers: {
+    'Access-Control-Allow-Origin': '*',
+    'Content-Type': 'application/json',
+  },
 });
 
 function api<T>(url: string, params: any, data: Object): Promise<T> {
