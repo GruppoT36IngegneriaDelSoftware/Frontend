@@ -1,0 +1,97 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Friz Quadrata TT';
+    font-weight: normal;
+    font-style: normal;
+    src: url(/assets/fonts/friz-quadrata-tt/regular.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Helvetica Condensed';
+    font-weight: normal;
+    font-style: normal;
+    src: url(/assets/fonts/helvetica-condensed/regular.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Helvetica Condensed';
+    font-weight: normal;
+    font-style: italic;
+    src: url(/assets/fonts/helvetica-condensed/italic.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Helvetica Condensed';
+    font-weight: bold;
+    font-style: normal;
+    src: url(/assets/fonts/helvetica-condensed/bold.otf) format('opentype');
+  }
+
+  @font-face {
+    font-family: 'Helvetica Condensed';
+    font-weight: bold;
+    font-style: italic;
+    src: url(/assets/fonts/helvetica-condensed/bold-italic.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Helvetica Condensed';
+    font-weight: bold;
+    font-style: oblique;
+    src: url(/assets/fonts/helvetica-condensed/bold-oblique.otf) format('opentype');
+  }
+}
+
+h1 {
+  font-family: "Friz Quadrata TT", serif;
+  font-size: 48px;
+  line-height: 52px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Helvetica Condensed", sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Helvetica Condensed", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+h4 {
+  font-family: "Helvetica Condensed", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+h5 {
+  font-family: "Helvetica Condensed", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h6 {
+  font-family: "Helvetica Condensed", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+p {
+  font-family: "Helvetica Condensed", sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+p {
+  font-family: "Helvetica Condensed", sans-serif;
+}
