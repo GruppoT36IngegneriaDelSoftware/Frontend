@@ -162,7 +162,12 @@ const Index = (props: IIndexProps) => {
               ))}
 
               {!inRicerca && (
-                <button onClick={handleAggiungiCorsi}>ciao</button>
+                <button
+                  onClick={handleAggiungiCorsi}
+                  className="p-4 bg-additional-information rounded-2xl drop-shadow-default text-main-white font-bold"
+                >
+                  <h4>carica altri corsi</h4>
+                </button>
               )}
             </div>
           </Main>
